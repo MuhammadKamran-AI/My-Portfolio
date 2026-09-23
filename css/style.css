@@ -246,6 +246,23 @@ main {
     gap: 0.5rem;
 }
 
+.about-img {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 .skills {
     background-color: #E9F0F6;
     padding: 4rem 0;
